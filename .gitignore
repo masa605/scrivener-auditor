@@ -1,0 +1,41 @@
+# Environment variables & Secret files
+.env
+.env.*
+!.env.example
+apikey.py
+api_key.py
+*apikey*.py
+*secret*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Personal manuscripts & outputs (Scrivener, manuscripts, generated reports)
+*.scriv/
+*.scriv
+*.epub
+*.odt
+*.opml
+*.xml
+audit_report*.md
+parsed_structure*.json
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*~
